@@ -1,0 +1,36 @@
+{
+    "version": "0.9.0",
+    "description": "Keeps AI coding agents' per-project histories tethered to their folders",
+    "homepage": "https://github.com/havurgiray/agent-history-tether",
+    "license": "AGPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/havurgiray/agent-history-tether/releases/download/v0.9.0/aht-0.9.0-windows-x64.zip",
+            "hash": "a97423d17abb6fb7f4f94fa47bb72fd62c0f501aa564761f86217b114bb68c3b"
+        },
+        "arm64": {
+            "url": "https://github.com/havurgiray/agent-history-tether/releases/download/v0.9.0/aht-0.9.0-windows-arm64.zip",
+            "hash": "0151f93cfc981ed4faf6babe2bcaaa6dd7c065b19cd6ce9ba5bfc85b6886894c"
+        }
+    },
+    "bin": [
+        "aht.exe",
+        "aht-tray.exe"
+    ],
+    "notes": [
+        "Finish the setup (logon watcher + Claude Code hook):  aht install --here",
+        "After 'scoop update aht', run 'aht install --here' again so the watcher and hook use the new exe.",
+        "Tether this machine's existing projects:  aht adopt --apply"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/havurgiray/agent-history-tether/releases/download/v$version/aht-$version-windows-x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/havurgiray/agent-history-tether/releases/download/v$version/aht-$version-windows-arm64.zip"
+            }
+        }
+    }
+}
