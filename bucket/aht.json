@@ -1,16 +1,16 @@
 {
-    "version": "0.12.2",
+    "version": "0.13.0",
     "description": "Keeps AI coding agents' per-project histories tethered to their folders",
     "homepage": "https://github.com/havurgiray/agent-history-tether",
     "license": "AGPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/havurgiray/agent-history-tether/releases/download/v0.12.2/aht-0.12.2-windows-x64.zip",
-            "hash": "7ffe6cf230ab2ff6f1ceceadee27f9ad6084eced7ec9193c02902cba3a4d379b"
+            "url": "https://github.com/havurgiray/agent-history-tether/releases/download/v0.13.0/aht-0.13.0-windows-x64.zip",
+            "hash": "cd2499801d3f28d5d6f76c675b6c3dfc41261700c1c7c6c27e5e2179824085b1"
         },
         "arm64": {
-            "url": "https://github.com/havurgiray/agent-history-tether/releases/download/v0.12.2/aht-0.12.2-windows-arm64.zip",
-            "hash": "3b4455b2ba5ad3edd84ff34cffb9bb7466193c045b4f56b87a8d20aeb128d3c2"
+            "url": "https://github.com/havurgiray/agent-history-tether/releases/download/v0.13.0/aht-0.13.0-windows-arm64.zip",
+            "hash": "44c547608b70dd75374ab81ee7e198fc8523f87030be07cd980e0f41332b76ff"
         }
     },
     "bin": [
